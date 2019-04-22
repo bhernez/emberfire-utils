@@ -24,7 +24,7 @@
     "ember-cli-babel": "^6.3.0",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-node-assets": "^0.2.2",
-    "emberfire": "^2.0.7",
+    "emberfire-exp": "^3.0.0",
     "fastboot-transform": "^0.1.2",
     "firebaseui": "^1.0.1"
   },
