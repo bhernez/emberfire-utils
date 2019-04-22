@@ -1,14 +1,14 @@
 /** @module emberfire-utils */
 import { camelize } from 'ember-string';
 import { pluralize } from 'ember-inflector';
-import EmberFireSerializer from 'emberfire/serializers/firebase';
+import RealtimeDatabaseSerializer from 'emberfire/serializers/realtime-database';
 
 /**
  * @class FirebaseFlex
  * @namespace Serializer
  * @extends DS.JSONSerializer
  */
-export default EmberFireSerializer.extend({
+export default RealtimeDatabaseSerializer.extend({
   /**
    * Builds a fanout object whenever a record is saved
    *
